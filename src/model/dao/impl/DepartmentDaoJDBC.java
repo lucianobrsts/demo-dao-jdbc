@@ -37,10 +37,4 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 		return null;
 	}
 
-	@Override
-	public List<Department> findByDepartment(Department department) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
