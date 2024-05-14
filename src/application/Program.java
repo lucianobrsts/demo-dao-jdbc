@@ -43,6 +43,11 @@ public class Program {
 //		Seller seller = new Seller(8, "Luciano.Brito", "luciano.brito@gmail.com", new Date(), 5500.0, dep);
 		System.out.println("Update completed!");
 		
+		System.out.println("\n===== Test 6: Seller delete =====");
+		sellerDao.deleteById(8);
+//		Seller seller = new Seller(8, "Luciano.Brito", "luciano.brito@gmail.com", new Date(), 5500.0, dep);
+		System.out.println("Dane Deleted!");
+		
 	}
 
 }
